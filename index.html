@@ -12,7 +12,7 @@
 const KEY='businessHunterV1';
 const SYNC_KEY='businessHunterSyncKeyV1';
 const SUPABASE_URL='https://uehmbzwnbariqebbxcst.supabase.co';
-const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFyaXFlYmJ4Y3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkwNjcyODIsImV4cCI6MjEwNDY0MzI4Mn0.zA_oLHdFNGi9nu5Z4zRT9dAMGGRjkXg5jyNwgf_n1Ok';
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVlaG1ienduYmFyaXFlYmJ4Y3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkwNjcyODIsImV4cCI6MjEwNDY0MzI4Mn0.zA_oLHdFNGi9nu5Z4zRT9dAMGGRjkXg5jyNwgf_n1Ok';
 let saved=JSON.parse(localStorage.getItem(KEY)||'[]');let market=[];let meta={};let view='live';let workspaceCode='';let syncState='Syncing…';
 let syncKey=localStorage.getItem(SYNC_KEY);if(!syncKey){syncKey=crypto.randomUUID()+'-'+crypto.randomUUID();localStorage.setItem(SYNC_KEY,syncKey)}
 function money(v){return v?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP',maximumFractionDigits:0}).format(v):'—'}function multiple(x){return x.profit>0&&x.price>0?x.price/x.profit:null}function score(x){let s=5,m=multiple(x);if(m){if(m<2.5)s+=2;else if(m<3.5)s+=1;else if(m>5)s-=2}if(x.profit>50000)s++;if((x.growth||'').length>35)s++;if((x.risks||'').toLowerCase().includes('owner'))s--;return Math.max(1,Math.min(10,s))}function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
