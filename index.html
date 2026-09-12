@@ -1,188 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#111827">
-<title>Business Hunter</title>
-<link rel="manifest" href="manifest.webmanifest">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#111827">
+<title>Business Hunter</title><link rel="manifest" href="manifest.webmanifest">
 <style>
-:root{--bg:#f4f6f8;--card:#fff;--ink:#111827;--muted:#667085;--line:#e5e7eb;--accent:#111827;--ok:#137333;--warn:#9a6700;--bad:#b42318}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}
-header{position:sticky;top:0;z-index:10;background:rgba(244,246,248,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.wrap{max-width:980px;margin:auto;padding:16px}
-h1{font-size:26px;margin:0}.sub{color:var(--muted);font-size:14px;margin-top:4px}
-.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-button,.btn,input,select,textarea{font:inherit}
-button,.btn{border:0;border-radius:12px;background:var(--accent);color:#fff;padding:10px 14px;font-weight:700;cursor:pointer}
-.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
-.filters{display:grid;grid-template-columns:1.3fr .9fr .9fr;gap:8px;margin:16px 0}
-input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink)}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
-.card h3{margin:0 0 4px;font-size:20px}.meta{color:var(--muted);font-size:13px}
-.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
-.metric{background:#f8fafc;border-radius:10px;padding:10px}.metric b{display:block;font-size:17px}.metric span{font-size:12px;color:var(--muted)}
-.row{display:flex;justify-content:space-between;gap:8px;align-items:center}
-.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#eef2f6;font-size:12px;margin:2px 4px 2px 0}
-.score{font-weight:800;padding:6px 9px;border-radius:10px;background:#ecfdf3;color:var(--ok)}
-.score.mid{background:#fff7ed;color:var(--warn)}.score.low{background:#fef3f2;color:var(--bad)}
-.section{margin-top:12px}.section b{font-size:13px}.section p{margin:5px 0 0;color:#344054;font-size:14px;line-height:1.4}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.actions button{padding:8px 10px;font-size:13px}
-.empty{padding:40px;text-align:center;color:var(--muted)}
-dialog{border:0;border-radius:18px;width:min(680px,94vw);padding:0;box-shadow:0 20px 60px rgba(0,0,0,.25)}
-dialog::backdrop{background:rgba(0,0,0,.4)}.modal{padding:18px}.modal h2{margin-top:0}
-.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.full{grid-column:1/-1}
-.small{font-size:12px;color:var(--muted)}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(3,1fr)}}
-</style>
-</head>
-<body>
-<header><div class="wrap">
-  <h1>Business Hunter</h1>
-  <div class="sub">Find, compare and assess businesses worth investigating.</div>
-  <div class="toolbar">
-    <button onclick="openAdd()">+ Add business</button>
-    <button class="ghost" onclick="exportData()">Export</button>
-    <label class="btn ghost" style="display:inline-block">Import<input type="file" id="importFile" accept=".json" hidden onchange="importData(event)"></label>
-  </div>
-</div></header>
-
-<main class="wrap">
-  <div class="filters">
-    <input id="search" placeholder="Search business or location…" oninput="render()">
-    <select id="statusFilter" onchange="render()">
-      <option value="">All statuses</option>
-      <option>New</option><option>Interesting</option><option>Researching</option><option>Contact owner</option><option>Rejected</option><option>Serious candidate</option>
-    </select>
-    <select id="sort" onchange="render()">
-      <option value="score">Best score</option>
-      <option value="priceLow">Lowest price</option>
-      <option value="profitHigh">Highest profit</option>
-      <option value="multipleLow">Lowest price/profit multiple</option>
-    </select>
-  </div>
-  <div id="summary" class="small" style="margin-bottom:10px"></div>
-  <div id="cards" class="grid"></div>
-</main>
-
-<dialog id="editor"><div class="modal">
-  <div class="row"><h2 id="modalTitle">Add business</h2><button class="ghost" onclick="editor.close()">Close</button></div>
-  <form id="form" onsubmit="saveBusiness(event)">
-    <input type="hidden" id="id">
-    <div class="formgrid">
-      <label>Name<input id="name" required></label>
-      <label>Location<input id="location"></label>
-      <label>Type<input id="type" placeholder="Retail, engineering, services…"></label>
-      <label>Status<select id="status"><option>New</option><option>Interesting</option><option>Researching</option><option>Contact owner</option><option>Rejected</option><option>Serious candidate</option></select></label>
-      <label>Asking price (£)<input id="price" type="number" min="0"></label>
-      <label>Turnover (£/yr)<input id="turnover" type="number" min="0"></label>
-      <label>Stated profit (£/yr)<input id="profit" type="number" min="0"></label>
-      <label>Profit measure<select id="profitMeasure"><option>Unknown</option><option>Adjusted net profit</option><option>EBITDA</option><option>Operating profit</option><option>Net profit</option><option>SDE</option></select></label>
-      <label>Rent / property cost (£/yr)<input id="rent" type="number" min="0"></label>
-      <label>Employees<input id="employees" type="number" min="0"></label>
-      <label>Owner days / week<input id="ownerDays" type="number" min="0" max="7" step=".5"></label>
-      <label>Source<input id="source" placeholder="Rightbiz, BusinessesForSale…"></label>
-      <label class="full">Listing URL<input id="url" type="url" placeholder="https://…"></label>
-      <label class="full">Growth opportunities<textarea id="growth" rows="3"></textarea></label>
-      <label class="full">Risks / missing information<textarea id="risks" rows="3"></textarea></label>
-      <label class="full">Notes<textarea id="notes" rows="3"></textarea></label>
-    </div>
-    <div class="actions"><button type="submit">Save business</button></div>
-  </form>
-</div></dialog>
-
+:root{--bg:#f4f6f8;--card:#fff;--ink:#111827;--muted:#667085;--line:#e5e7eb;--ok:#137333;--warn:#9a6700;--bad:#b42318}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}header{position:sticky;top:0;z-index:10;background:rgba(244,246,248,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.wrap{max-width:980px;margin:auto;padding:16px}h1{font-size:26px;margin:0}.sub,.small{color:var(--muted);font-size:13px}.toolbar,.actions,.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}button,.btn,input,select{font:inherit}button,.btn{border:0;border-radius:12px;background:#111827;color:#fff;padding:10px 14px;font-weight:700;cursor:pointer}.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}.tab.active{background:#111827;color:white}.filters{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:8px;margin:16px 0}input,select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.card h3{margin:0 0 4px;font-size:19px}.meta{color:var(--muted);font-size:13px}.row{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.score{font-weight:800;padding:6px 9px;border-radius:10px;background:#ecfdf3;color:var(--ok)}.score.mid{background:#fff7ed;color:var(--warn)}.score.low{background:#fef3f2;color:var(--bad)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}.metric{background:#f8fafc;border-radius:10px;padding:10px}.metric b{display:block;font-size:16px}.metric span{font-size:11px;color:var(--muted)}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#eef2f6;font-size:12px;margin:6px 4px 0 0}.section{margin-top:12px}.section b{font-size:13px}.section p{margin:5px 0 0;color:#344054;font-size:14px;line-height:1.4}.notice{background:#fff;border:1px solid var(--line);padding:12px 14px;border-radius:12px;margin:14px 0}.empty{padding:40px;text-align:center;color:var(--muted)}@media(max-width:760px){.grid{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(3,1fr)}}
+</style></head>
+<body><header><div class="wrap"><h1>Business Hunter</h1><div class="sub">Live Cornwall market + your saved shortlist.</div><div class="tabs"><button id="liveTab" class="tab active" onclick="setView('live')">Live market</button><button id="savedTab" class="tab ghost" onclick="setView('saved')">Saved</button></div></div></header>
+<main class="wrap"><div id="notice" class="notice small">Loading market feed…</div><div class="filters"><input id="search" placeholder="Search business or location…" oninput="render()"><select id="sourceFilter" onchange="render()"><option value="">All sources</option></select><select id="sort" onchange="render()"><option value="score">Best score</option><option value="priceLow">Lowest price</option><option value="profitHigh">Highest profit</option><option value="multipleLow">Lowest multiple</option></select></div><div id="summary" class="small" style="margin-bottom:10px"></div><div id="cards" class="grid"></div></main>
 <script>
-const KEY="businessHunterV1";
-const demo=[
- {id:"demo1",name:"Demo: Established Service Business",location:"Cornwall",type:"Services",status:"Interesting",price:165000,turnover:320000,profit:61000,profitMeasure:"Adjusted net profit",rent:18000,employees:4,ownerDays:5,source:"Demo listing",url:"",growth:"Under-developed website, limited online lead generation, scope to add recurring contracts.",risks:"Owner responsibilities not yet clear. Need three years of accounts and staff breakdown.",notes:"Example only — replace with real listings."},
- {id:"demo2",name:"Demo: Small Manufacturing Business",location:"South West",type:"Manufacturing",status:"New",price:240000,turnover:510000,profit:78000,profitMeasure:"EBITDA",rent:26000,employees:7,ownerDays:4,source:"Demo listing",url:"",growth:"Unused production capacity; potential trade accounts and e-commerce.",risks:"Need capex history, machinery condition and customer concentration.",notes:"Example only — replace with real listings."}
-];
-let state=JSON.parse(localStorage.getItem(KEY)||"null")||demo;
-
-function money(v){return v?new Intl.NumberFormat("en-GB",{style:"currency",currency:"GBP",maximumFractionDigits:0}).format(v):"—"}
-function multiple(x){return x.profit>0&&x.price>0?x.price/x.profit:null}
-function score(x){
- let s=5;
- const m=multiple(x);
- if(m){ if(m<2.5)s+=2; else if(m<3.5)s+=1; else if(m>5)s-=2; }
- if(x.profit>50000)s+=1;
- if(x.growth&&x.growth.length>30)s+=1;
- if(x.risks&&x.risks.toLowerCase().includes("owner"))s-=1;
- return Math.max(1,Math.min(10,s));
-}
-function persist(){localStorage.setItem(KEY,JSON.stringify(state));render()}
-function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}
-
-function render(){
- const q=document.getElementById("search").value.toLowerCase().trim();
- const sf=document.getElementById("statusFilter").value;
- let xs=state.filter(x=>(!q||[x.name,x.location,x.type].join(" ").toLowerCase().includes(q))&&(!sf||x.status===sf));
- const sort=document.getElementById("sort").value;
- xs.sort((a,b)=>{
-   if(sort==="priceLow") return (a.price||1e99)-(b.price||1e99);
-   if(sort==="profitHigh") return (b.profit||0)-(a.profit||0);
-   if(sort==="multipleLow") return (multiple(a)||1e99)-(multiple(b)||1e99);
-   return score(b)-score(a);
- });
- document.getElementById("summary").textContent=`${xs.length} business${xs.length===1?"":"es"} shown · ${state.length} saved`;
- document.getElementById("cards").innerHTML=xs.length?xs.map(card).join(""):`<div class="empty">No businesses match those filters.</div>`;
-}
-function card(x){
- const s=score(x), cls=s>=7?"":s>=5?"mid":"low", m=multiple(x);
- return `<article class="card">
-  <div class="row"><div><h3>${esc(x.name)}</h3><div class="meta">${esc(x.location||"Location unknown")} · ${esc(x.type||"Uncategorised")}</div></div><span class="score ${cls}">${s}/10</span></div>
-  <div style="margin-top:8px"><span class="tag">${esc(x.status)}</span><span class="tag">${esc(x.profitMeasure||"Profit measure unknown")}</span></div>
-  <div class="metrics">
-    <div class="metric"><b>${money(x.price)}</b><span>asking price</span></div>
-    <div class="metric"><b>${money(x.profit)}</b><span>stated profit</span></div>
-    <div class="metric"><b>${m?m.toFixed(1)+"×":"—"}</b><span>price/profit</span></div>
-  </div>
-  <div class="section"><b>Turnover</b><p>${money(x.turnover)} / year ${x.rent?`· Rent/property ${money(x.rent)}`:""}</p></div>
-  <div class="section"><b>Growth potential</b><p>${esc(x.growth||"Not assessed yet.")}</p></div>
-  <div class="section"><b>Risks / missing information</b><p>${esc(x.risks||"Not assessed yet.")}</p></div>
-  <div class="actions">
-    <button onclick="editBusiness('${x.id}')">Edit</button>
-    ${x.url?`<button class="ghost" onclick="window.open('${esc(x.url)}','_blank')">Open listing</button>`:""}
-    <button class="ghost" onclick="cycleStatus('${x.id}')">${x.status==="Interesting"?"Mark researching":"Change status"}</button>
-  </div>
- </article>`
-}
-function openAdd(){
- document.getElementById("modalTitle").textContent="Add business";
- document.getElementById("form").reset(); document.getElementById("id").value="";
- editor.showModal();
-}
-function editBusiness(id){
- const x=state.find(v=>v.id===id); if(!x)return;
- document.getElementById("modalTitle").textContent=x.name;
- for(const k of ["id","name","location","type","status","price","turnover","profit","profitMeasure","rent","employees","ownerDays","source","url","growth","risks","notes"]) document.getElementById(k).value=x[k]??"";
- editor.showModal();
-}
-function saveBusiness(e){
- e.preventDefault();
- const id=document.getElementById("id").value||crypto.randomUUID();
- const num=k=>Number(document.getElementById(k).value)||0;
- const text=k=>document.getElementById(k).value.trim();
- const x={id,name:text("name"),location:text("location"),type:text("type"),status:text("status"),price:num("price"),turnover:num("turnover"),profit:num("profit"),profitMeasure:text("profitMeasure"),rent:num("rent"),employees:num("employees"),ownerDays:num("ownerDays"),source:text("source"),url:text("url"),growth:text("growth"),risks:text("risks"),notes:text("notes")};
- const i=state.findIndex(v=>v.id===id); if(i>=0)state[i]=x; else state.unshift(x);
- persist(); editor.close();
-}
-function cycleStatus(id){
- const order=["New","Interesting","Researching","Contact owner","Serious candidate","Rejected"];
- const x=state.find(v=>v.id===id); if(!x)return;
- x.status=order[(order.indexOf(x.status)+1)%order.length]; persist();
-}
-function exportData(){
- const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});
- const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="business-hunter-backup.json";a.click();URL.revokeObjectURL(a.href);
-}
-function importData(e){
- const f=e.target.files[0]; if(!f)return;
- const r=new FileReader(); r.onload=()=>{try{state=JSON.parse(r.result);persist()}catch{alert("That file could not be imported.")}};r.readAsText(f);
-}
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
-render();
-</script>
-</body>
-</html>
+const KEY='businessHunterV1';let saved=JSON.parse(localStorage.getItem(KEY)||'[]');let market=[];let meta={};let view='live';
+function money(v){return v?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP',maximumFractionDigits:0}).format(v):'—'}function multiple(x){return x.profit>0&&x.price>0?x.price/x.profit:null}function score(x){let s=5,m=multiple(x);if(m){if(m<2.5)s+=2;else if(m<3.5)s+=1;else if(m>5)s-=2}if(x.profit>50000)s++;if((x.growth||'').length>35)s++;if((x.risks||'').toLowerCase().includes('owner'))s--;return Math.max(1,Math.min(10,s))}function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function setView(v){view=v;liveTab.className='tab '+(v==='live'?'active':'ghost');savedTab.className='tab '+(v==='saved'?'active':'ghost');render()}
+function persist(){localStorage.setItem(KEY,JSON.stringify(saved));render()}
+function saveListing(id){const x=market.find(v=>v.id===id);if(!x)return;if(saved.some(v=>v.id===id)){alert('Already saved.');return}saved.unshift({...x,status:'Interesting'});persist();alert('Saved to your shortlist.');}
+function removeSaved(id){saved=saved.filter(x=>x.id!==id);persist()}
+function render(){const q=search.value.toLowerCase().trim(),sf=sourceFilter.value;let xs=(view==='live'?market:saved).filter(x=>(!q||[x.name,x.location,x.type].join(' ').toLowerCase().includes(q))&&(!sf||x.source===sf));const sv=sort.value;xs.sort((a,b)=>sv==='priceLow'?(a.price||1e99)-(b.price||1e99):sv==='profitHigh'?(b.profit||0)-(a.profit||0):sv==='multipleLow'?(multiple(a)||1e99)-(multiple(b)||1e99):score(b)-score(a));summary.textContent=`${xs.length} ${view==='live'?'live':'saved'} business${xs.length===1?'':'es'} shown`;cards.innerHTML=xs.length?xs.map(card).join(''):'<div class="empty">Nothing to show yet.</div>'}
+function card(x){const s=score(x),cls=s>=7?'':s>=5?'mid':'low',m=multiple(x);return `<article class="card"><div class="row"><div><h3>${esc(x.name)}</h3><div class="meta">${esc(x.location||'Cornwall')} · ${esc(x.type||'Uncategorised')}</div></div><span class="score ${cls}">${s}/10</span></div><div><span class="tag">${esc(x.source||'Source')}</span><span class="tag">${esc(x.profitMeasure||'Unknown profit measure')}</span></div><div class="metrics"><div class="metric"><b>${money(x.price)}</b><span>asking price</span></div><div class="metric"><b>${money(x.profit)}</b><span>stated profit</span></div><div class="metric"><b>${m?m.toFixed(1)+'×':'—'}</b><span>price/profit</span></div></div><div class="section"><b>Turnover</b><p>${money(x.turnover)} / year</p></div><div class="section"><b>Growth potential</b><p>${esc(x.growth||'Not assessed yet.')}</p></div><div class="section"><b>Risks / missing information</b><p>${esc(x.risks||'Not assessed yet.')}</p></div><div class="actions">${x.url?`<button onclick="window.open('${esc(x.url)}','_blank')">Open listing</button>`:''}${view==='live'?`<button class="ghost" onclick="saveListing('${esc(x.id)}')">Save</button>`:`<button class="ghost" onclick="removeSaved('${esc(x.id)}')">Remove</button>`}</div></article>`}
+async function loadMarket(){try{const r=await fetch('market.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const j=await r.json();market=j.listings||[];meta=j;const d=j.updated_at?new Date(j.updated_at).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):'unknown';notice.textContent=`Market feed: ${market.length} listings · ${j.region||'Cornwall'} · last refreshed ${d}. Automated figures are screening data only — verify against the seller advert and accounts.`;const sources=[...new Set(market.map(x=>x.source).filter(Boolean))].sort();sourceFilter.innerHTML='<option value="">All sources</option>'+sources.map(s=>`<option>${esc(s)}</option>`).join('');render()}catch(e){notice.textContent='Could not load the live market feed. Your saved shortlist is still available.';setView('saved')}}
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');loadMarket();
+</script></body></html>
