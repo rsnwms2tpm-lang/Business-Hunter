@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '15 7 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'collector.py'
+      - '.github/workflows/collect-market.yml'
 
 permissions:
   contents: write
