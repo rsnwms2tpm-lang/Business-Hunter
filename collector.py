@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 
 HEADERS = {
-    "User-Agent": "BusinessHunter/2.3 (+personal research; low-frequency collector)",
+    "User-Agent": "BusinessHunter/2.4 (+personal research; low-frequency collector)",
     "Accept-Language": "en-GB,en;q=0.9",
 }
 TIMEOUT = 25
@@ -23,6 +23,7 @@ SOURCES = [
     {"name": "BusinessesForSale", "url": "https://uk.businessesforsale.com/uk/search/businesses-for-sale-in-cornwall", "parser": "bfs"},
     {"name": "Daltons", "url": "https://www.daltonsbusiness.com/listing-businesses-for-sale-in-cornwall/", "parser": "daltons"},
     {"name": "Intelligent", "url": "https://www.intelligent.co.uk/businesses-for-sale/cornwall-businesses-for-sale", "parser": "intelligent"},
+    {"name": "Bizdaq", "url": "https://www.mybizdaq.com/businesses-for-sale/cornwall-businesses-for-sale", "parser": "bizdaq"},
 ]
 
 
@@ -86,7 +87,6 @@ def extract_asking_price(text):
     for confidence, labels in groups:
         value, raw, ranged = extract_money(text, labels)
         if value is not None:
-            # Very small 'leasehold price' figures are frequently annual rent/premium artefacts.
             if confidence == "Medium" and value < 10_000:
                 continue
             return value, raw, ranged, confidence
@@ -118,6 +118,13 @@ def valid(url, kind):
         return p.netloc.endswith("businessesforsale.com") and path.endswith(".aspx") and "/search/" not in path
     if kind == "daltons":
         return p.netloc.endswith("daltonsbusiness.com") and "/listing/" in path
+    if kind == "bizdaq":
+        return (
+            p.netloc.endswith("mybizdaq.com")
+            and path.startswith("/businesses-for-sale/")
+            and path != "/businesses-for-sale/cornwall-businesses-for-sale"
+            and bool(re.search(r"-\d+$", path))
+        )
     return p.netloc.endswith("intelligent.co.uk") and "/businesses-for-sale/" in path and not path.endswith("/businesses-for-sale") and not path.endswith("/cornwall-businesses-for-sale")
 
 
@@ -278,7 +285,6 @@ def enrich_item(session, item):
             item["priceIsRange"] = ranged
             item["priceConfidence"] = confidence
         else:
-            # Do not trust a card-level price if the detail advert cannot confirm it.
             item["price"] = 0
             item["priceDisplay"] = "Price not confidently identified"
             item["priceIsRange"] = False
@@ -392,7 +398,7 @@ def main():
         "count": len(kept),
         "sources": [x["name"] for x in SOURCES],
         "errors": errors,
-        "collector_version": 2.3,
+        "collector_version": 2.4,
         "acquisition_policy": {
             "main_max": 200_000,
             "hard_max": MAX_ASKING_PRICE,
