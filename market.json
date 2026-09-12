@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T08:15:00Z",
+  "updated_at": "2026-09-12T09:05:00Z",
   "region": "Cornwall",
   "count": 7,
   "sources": ["Rightbiz", "BusinessesForSale", "Daltons"],
@@ -18,11 +18,11 @@
       "rent": 0,
       "employees": 0,
       "ownerDays": 0,
-      "source": "Rightbiz",
-      "url": "https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
+      "source": "BusinessesForSale",
+      "url": "https://uk.businessesforsale.com/uk/independent-car-hire-business-located-in-newquay-cornwall.aspx",
       "growth": "Strong tourist market and potential to improve direct booking, fleet utilisation and partnerships.",
       "risks": "Need fleet ownership/finance details, insurance costs, seasonality, vehicle replacement profile and owner role.",
-      "notes": "Seeded from current Cornwall market results. Verify against source listing."
+      "notes": "Individual mirrored advert used so the listing link opens directly. Seller ref 3285."
     },
     {
       "id": "seed-daltons-mobile-engineer",
@@ -76,10 +76,10 @@
       "employees": 0,
       "ownerDays": 0,
       "source": "Rightbiz",
-      "url": "https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
+      "url": "https://www.rightbiz.co.uk/buy_business/for_sale/654573_cornwall.html",
       "growth": "Relocatable model may allow lower premises costs; possible scope for fleet and direct-booking growth.",
       "risks": "Need vehicle values, finance status, maintenance history, insurance claims, booking seasonality and depreciation.",
-      "notes": "Advert states established around six years. Verify source."
+      "notes": "Individual Rightbiz advert link. Verify current price and availability."
     },
     {
       "id": "seed-rightbiz-bakery-st-austell",
@@ -94,11 +94,11 @@
       "rent": 0,
       "employees": 0,
       "ownerDays": 0,
-      "source": "Rightbiz",
-      "url": "https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
+      "source": "BusinessesForSale",
+      "url": "https://uk.businessesforsale.com/uk/established-bakery-in-st-austell.aspx",
       "growth": "Potential additional value from the one-bedroom apartment and local reputation.",
       "risks": "No profit figure shown in market result. Need lease, rent, staffing, utilities and bakery equipment condition.",
-      "notes": "Verify detailed listing before assessment."
+      "notes": "Individual mirrored advert used so the listing link opens directly. Seller ref 3025."
     },
     {
       "id": "seed-bfs-specialist-products",
@@ -114,7 +114,7 @@
       "employees": 0,
       "ownerDays": 0,
       "source": "BusinessesForSale",
-      "url": "https://uk.businessesforsale.com/uk/search/businesses-for-sale-in-cornwall",
+      "url": "https://uk.businessesforsale.com/uk/established-online-retailer-of-disability-lifestyle-products.aspx",
       "growth": "Nationwide niche market with potential product, partnership and online-channel expansion.",
       "risks": "Advert uses broad price, turnover and net-profit ranges; midpoint figures are estimates, not seller exacts.",
       "notes": "Quick-sale / work-from-home tags shown in source results."
