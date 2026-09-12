@@ -5,7 +5,8 @@
 const SAVED='businessHunterV1',DISMISSED='businessHunterDismissedV1',SYNC_KEY='businessHunterSyncKeyV1';
 const SUPABASE_URL='https://uehmbzwnbariqebbxcst.supabase.co';
 const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVlaG1ienduYmFyaXFlYmJ4Y3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkwNjcyODIsImV4cCI6MjEwNDY0MzI4Mn0.zA_oLHdFNGi9nu5Z4zRT9dAMGGRjkXg5jyNwgf_n1Ok';
-let market=[],saved=JSON.parse(localStorage.getItem(SAVED)||'[]'),dismissed=JSON.parse(localStorage.getItem(DISMISSED)||'[]'),view='candidates';
+let market=[],saved=JSON.parse(localStorage.getItem(SAVED)||'[]'),dismissed=JSON.parse(localStorage.getItem(DISMISSED)||'[]').filter(x=>x&&typeof x==='object'&&x.id&&x.name),view='candidates';
+localStorage.setItem(DISMISSED,JSON.stringify(dismissed));
 let syncKey=localStorage.getItem(SYNC_KEY);if(!syncKey){syncKey=crypto.randomUUID()+'-'+crypto.randomUUID();localStorage.setItem(SYNC_KEY,syncKey)}
 const money=v=>v?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP',maximumFractionDigits:0}).format(v):'—';const mult=x=>x.price&&x.profit?x.price/x.profit:null;const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 function headers(){return {'apikey':SUPABASE_ANON,'Authorization':'Bearer '+SUPABASE_ANON,'Content-Type':'application/json'}}
