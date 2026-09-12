@@ -5,7 +5,7 @@
 const SAVED='businessHunterV1',DISMISSED='businessHunterDismissedV1';
 const SYNC_KEY='business-hunter-primary-workspace-2026-09-12';
 const SUPABASE_URL='https://uehmbzwnbariqebbxcst.supabase.co';
-const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzIjoiU3VwYWJhc2UiLCJyZWYiOiJ1ZWhtYnp3bmJhcmVxcWViYnhjc3QiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc4OTA2NzI4MiwiZXhwIjoyMTA0NjQzMjgyfQ.zA_oLHdFNGi9nu5Z4zRT9dAMGGRjkXg5jyNwgf_n1Ok'.replace('IjoidX','IjoidX');
+const SUPABASE_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVlaG1ienduYmFyaXFlYmJ4Y3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkwNjcyODIsImV4cCI6MjEwNDY0MzI4Mn0.zA_oLHdFNGi9nu5Z4zRT9dAMGGRjkXg5jyNwgf_n1Ok';
 let market=[],saved=[],dismissed=[],view='candidates';
 try{saved=JSON.parse(localStorage.getItem(SAVED)||'[]')}catch{}try{dismissed=JSON.parse(localStorage.getItem(DISMISSED)||'[]').filter(x=>x&&typeof x==='object'&&x.id&&x.name)}catch{}
 const money=v=>v?new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP',maximumFractionDigits:0}).format(v):'—';const mult=x=>x.price&&x.profit?x.price/x.profit:null;const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
