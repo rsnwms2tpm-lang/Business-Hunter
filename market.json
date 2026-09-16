@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:28:21.623985+00:00",
+  "updated_at": "2026-09-16T07:27:41.420221+00:00",
   "region": "Cornwall",
   "count": 3,
   "sources": [
@@ -22,9 +22,9 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 9,
-    "over_cap": 5,
-    "price_unknown": 7,
+    "franchise": 8,
+    "over_cap": 7,
+    "price_unknown": 6,
     "property_only": 0
   },
   "listings": [
@@ -63,39 +63,6 @@
       "acquisitionBand": "Core"
     },
     {
-      "id": "daltons-fc79bba5d2f46b",
-      "name": "Established Hospitality and Dining Experience Business on the Water",
-      "location": "d Dining Experience Business on the Water Falmouth , Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 75000,
-      "priceDisplay": "Price: £75,000",
-      "priceIsRange": false,
-      "priceConfidence": "Low",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/established-hospitality-and-dining-experience-for-sale-DB2581000/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model. Advert mentions repeat or recurring customer revenue.",
-      "description": "Following eight successful years of operation, Blue River Table is for sale as an established and highly regarded hospitality and water-based experience business. Operating from Mylor Yacht Harbour, Blue River Table offers a truly unique dining experience for up to 12 guests, renowned for banquet-style feasts of locally sourced produce while cruising the stunning waterways of the Carrick Roads. At the heart of the business is Tethra, a beautifully converted traditional Cornish motor launch. Built in 1971 and extensively refitted in 2018, she combines classic character with modern systems and comforts, including a new engine installed in 2022. Fully equipped and operational, Tethra is in immaculate condition and offers a versatile and luxury venue for dining, private events, and celebrations, supported by an established reputation, strong repeat business, and a loyal client base built over many years. Business Highlights – Established brand with an excellent reputation and repeat clientele – Unique venue suitable for a wide range of events – Traditional Cornish motor launch converted for bespoke dining experiences – An exclusive way to experience the Cornish waterways – Fully equipped galley and adaptable event space – Coded to run in the Carrick Roads and Helford – Licensed bar onboard with fully commercial operation – VAT Registered, trips are classed as zero registered for VAT, so the business is in a VAT refund position every quarter. A Flexible Opportunity – Continue a proven and successful dining experience – Expand or integrate into an existing hospitality business – Develop new commercial opportunities on the water – Enjoy private use of a unique and characterful vessel For more information and specifications about the boat, please follow this link: https://www.red-ensign.com/brokerage/curtis-and-pape-36/",
-      "sellerSignals": [
-        "Advert indicates a flexible or relocatable operating model.",
-        "Advert mentions repeat or recurring customer revenue."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
       "id": "daltons-1480107e3181a8",
       "name": "Highfields Motor Home Hire",
       "location": "Cornwall",
@@ -124,6 +91,36 @@
       "sellerSignals": [
         "Advert indicates a flexible or relocatable operating model."
       ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-49e5f946a240fc",
+      "name": "Freehold Commercial Investment – Banking Hub, Bude, Cornwall",
+      "location": "Bude, Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 179950,
+      "priceDisplay": "Asking Price: £179,950",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 0,
+      "turnoverDisplay": "",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/freehold-commercial-investment-banking-for-sale-DB2605021/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "description": "Asking Price: £179,950 Freehold Current Rent: £12,000 per annum Headline Gross Yield: 6.67% Tenant: Cash Access UK Limited Location: 1 The Depot, Lansdown Road, Bude, Cornwall, EX23 8BN Bizionary is pleased to offer for sale the freehold interest in this modern ground-floor commercial premises in Bude, Cornwall, currently occupied and trading as the town’s Banking Hub. The property is let to Cash Access UK Limited, the organisation responsible for operating Banking Hubs across the UK. The documentation supplied confirms Cash Access UK Limited as the tenant of the ground-floor shop at 1 The Depot, Lansdown Road, Bude. The property produces a current rental income of £12,000 per annum, providing an attractive 6.67% headline gross yield based on the £179,950 asking price. This represents an opportunity to acquire a fully let commercial investment with an established institutional-style occupier, rather than taking on the letting risk, void periods and fit-out costs associated with purchasing a vacant commercial unit. Key Investment Highlights • Freehold commercial investment • Asking price: £179,950 • £12,000 annual rental income • 6.67% headline gross yield • 15-year lease • Tenant: Cash Access UK Limited • Currently operating as the Bude Banking Hub • RPI-linked rent review provisions • Modern, professionally fitted commercial premises • Significant tenant investment into the Banking Hub fit-out • Prominent ground-floor position • Located in the established coastal town of Bude, North Cornwall • Potentially suitable for private investors, pension/SIPP investors and commercial property investors, subject to individual eligibility and professional advice",
+      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     }
