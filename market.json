@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T07:28:05.969759+00:00",
+  "updated_at": "2026-09-18T07:26:02.548536+00:00",
   "region": "Cornwall",
   "count": 3,
   "sources": [
@@ -10,7 +10,7 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
+    "Rightbiz: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
@@ -24,7 +24,7 @@
   "excluded": {
     "franchise": 8,
     "over_cap": 7,
-    "price_unknown": 6,
+    "price_unknown": 7,
     "property_only": 0
   },
   "listings": [
@@ -100,8 +100,8 @@
       "location": "Bude, Cornwall",
       "type": "",
       "status": "New",
-      "price": 179950,
-      "priceDisplay": "Asking Price: £179,950",
+      "price": 169950,
+      "priceDisplay": "Asking Price: £169,950",
       "priceIsRange": false,
       "priceConfidence": "High",
       "turnover": 0,
@@ -119,7 +119,7 @@
       "growth": "Review the full seller description for evidenced growth opportunities.",
       "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
       "notes": "Automatically collected from Daltons; individual advert URL retained.",
-      "description": "Asking Price: £179,950 Freehold Current Rent: £12,000 per annum Headline Gross Yield: 6.67% Tenant: Cash Access UK Limited Location: 1 The Depot, Lansdown Road, Bude, Cornwall, EX23 8BN Bizionary is pleased to offer for sale the freehold interest in this modern ground-floor commercial premises in Bude, Cornwall, currently occupied and trading as the town’s Banking Hub. The property is let to Cash Access UK Limited, the organisation responsible for operating Banking Hubs across the UK. The documentation supplied confirms Cash Access UK Limited as the tenant of the ground-floor shop at 1 The Depot, Lansdown Road, Bude. The property produces a current rental income of £12,000 per annum, providing an attractive 6.67% headline gross yield based on the £179,950 asking price. This represents an opportunity to acquire a fully let commercial investment with an established institutional-style occupier, rather than taking on the letting risk, void periods and fit-out costs associated with purchasing a vacant commercial unit. Key Investment Highlights • Freehold commercial investment • Asking price: £179,950 • £12,000 annual rental income • 6.67% headline gross yield • 15-year lease • Tenant: Cash Access UK Limited • Currently operating as the Bude Banking Hub • RPI-linked rent review provisions • Modern, professionally fitted commercial premises • Significant tenant investment into the Banking Hub fit-out • Prominent ground-floor position • Located in the established coastal town of Bude, North Cornwall • Potentially suitable for private investors, pension/SIPP investors and commercial property investors, subject to individual eligibility and professional advice",
+      "description": "Asking Price: £169,950 Freehold Current Rent: £12,000 per annum Headline Gross Yield: 7% Tenant: Cash Access UK Limited Location: 1 The Depot, Lansdown Road, Bude, Cornwall, EX23 8BN Bizionary is pleased to offer for sale the freehold interest in this modern ground-floor commercial premises in Bude, Cornwall, currently occupied and trading as the town’s Banking Hub. The property is let to Cash Access UK Limited, the organisation responsible for operating Banking Hubs across the UK. The documentation supplied confirms Cash Access UK Limited as the tenant of the ground-floor shop at 1 The Depot, Lansdown Road, Bude. The property produces a current rental income of £12,000 per annum, providing an attractive 7% headline gross yield based on the £169,950 asking price. This represents an opportunity to acquire a fully let commercial investment with an established institutional-style occupier, rather than taking on the letting risk, void periods and fit-out costs associated with purchasing a vacant commercial unit. Key Investment Highlights • Freehold commercial investment • Asking price: £169,950 • £12,000 annual rental income • 7% headline gross yield • 15-year lease • Tenant: Cash Access UK Limited • Currently operating as the Bude Banking Hub • RPI-linked rent review provisions • Modern, professionally fitted commercial premises • Significant tenant investment into the Banking Hub fit-out • Prominent ground-floor position • Located in the established coastal town of Bude, North Cornwall • Potentially suitable for private investors, pension/SIPP investors and commercial property investors, subject to individual eligibility and professional advice",
       "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
