@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T07:26:02.548536+00:00",
+  "updated_at": "2026-09-19T07:23:48.297248+00:00",
   "region": "Cornwall",
   "count": 3,
   "sources": [
@@ -10,7 +10,7 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
