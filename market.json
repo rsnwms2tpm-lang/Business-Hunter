@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T07:26:27.083161+00:00",
+  "updated_at": "2026-09-23T07:27:15.033300+00:00",
   "region": "Cornwall",
   "count": 3,
   "sources": [
@@ -23,7 +23,7 @@
   },
   "excluded": {
     "franchise": 8,
-    "over_cap": 7,
+    "over_cap": 8,
     "price_unknown": 8,
     "property_only": 0
   },
