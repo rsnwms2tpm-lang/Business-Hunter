@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T07:27:15.033300+00:00",
+  "updated_at": "2026-09-24T07:27:13.434329+00:00",
   "region": "Cornwall",
-  "count": 3,
+  "count": 4,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -23,11 +23,41 @@
   },
   "excluded": {
     "franchise": 8,
-    "over_cap": 8,
+    "over_cap": 6,
     "price_unknown": 8,
     "property_only": 0
   },
   "listings": [
+    {
+      "id": "daltons-cdaccde7f55852",
+      "name": "Contact Seller",
+      "location": "Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 29999,
+      "priceDisplay": "Price: £29,999",
+      "priceIsRange": false,
+      "priceConfidence": "Low",
+      "turnover": 377000,
+      "turnoverDisplay": "Annual Turnover: £377,000",
+      "turnoverIsRange": false,
+      "profit": 119000,
+      "profitDisplay": "Annual Net Profit: £119,000",
+      "profitIsRange": false,
+      "profitMeasure": "Annual net profit",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/hotel-16-rooms-and-restaurant-55-cover-for-sale-DB2604916/#property-schedule-tour-wrap",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "description": "16 BEDROOM HOTEL SUBJECT TO SIGNIFICANT UPDATING EXTENDED IN 2017 TO PROVIDE ADDITIONAL 8 ROOMS SET IN C. 1.1 ACRES OF GROUNDS INCLUDING FEATURE GARDENS PURPOSE BUILT 2 BEDROOM SEPARATE ACCOMMODATION SALES OF £377k PA AND NET PROFIT OF £119k PA WELL EQUIPPPED AND PRESENTED THROUGHOUT EPC’S 73c AND 53C",
+      "sellerSignals": [],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
     {
       "id": "daltons-33cc77c3a51c94",
       "name": "Established Online Tourism & Accommodation Advertising Business",
