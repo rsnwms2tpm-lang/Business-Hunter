@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24T07:27:13.434329+00:00",
+  "updated_at": "2026-09-26T07:25:01.729528+00:00",
   "region": "Cornwall",
-  "count": 4,
+  "count": 5,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -88,6 +88,38 @@
         "Seller states retirement as a reason for sale.",
         "Advert indicates a flexible or relocatable operating model.",
         "Advert mentions repeat or recurring customer revenue."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-e3f971f622dd9a",
+      "name": "Independent Car Hire Business Located In Newquay, Cornwall",
+      "location": "Independent Car Hire Business Located In Newquay, Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 60000,
+      "priceDisplay": "Asking Price £60,000",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 0,
+      "turnoverDisplay": "",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/independent-car-hire-business-located-in-for-sale-DB2596748/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
+      "description": "Independent Car Hire Business Located In Newquay, Cornwall Located @ Newquay Airport Includes £20K Of Assets Relocatable Ref 3285 Asking Price £60,000 LTD Company Sale Location This established Car Hire business is located at Newquay Airport. They also operate at various train stations across Cornwall which are used as pick-up and drop-off points. This offers flexibility and means that the business is fully relocatable within the area that is logistically covered. Business Description Veritas Business Sales are delighted to offer to the market this respected car hire business, which is located in Newquay. Established in 2000 by our client’s late father, the business has been family-operated ever since and is now reluctantly being offered for sale due to our client’s wish to relocate overseas. Cornwall Car Hire Limited offers flexible, hassle-free car hire across Cornwall, with locations in Newquay, St Austell, Bodmin, Truro, Redruth, Liskeard, Camborne, Penzance, Falmouth and St Ives The company is being sold as a limited company, making the transfer of the existing car hire contracts straightforward. The sale also includes a VW Crafter mobile office, which is fully equipped, together with six websites and social media accounts. For the year ended 31st December 2025, the company reported an annual turnover of £217,991 and a net profit of £55,605. Based on these figures, the asking price represents an attractive opportunity for a purchaser. We believe the business would suit an existing car hire company looking to expand through acquisition, or another car-related business with its own premises looking for a complementary bolt-on operation. The business has built a strong reputation within the local community and beyond and benefits from a 4.8 Google rating from 84 customer reviews. This represents an excellent opportunity to acquire an established, turnkey operation with significant scope for further growth. Early viewing is therefore highly recommended. Mobile Office 2024 WV Crafter Reg KT73 MHM Plant & Machinery Cordless hoover DeWalt Vacuum Cleaner Posture Mesh Office Chair 2 x 18v Battery Twin Packs Einhell PXC Quad Charger Einhell TC-VC 18/20 Wet/Dry Vacuum cleaner Ergo-Tek Chair Karcher K4 Pressure Washer Einhell Cordless Wet & Dry Vacuum Cleaner 10 x child seats 2 x GPS Sat nav units",
+      "sellerSignals": [
+        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
