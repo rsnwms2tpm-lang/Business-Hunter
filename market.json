@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-02T07:30:12.475903+00:00",
+  "updated_at": "2026-10-03T07:31:20.884840+00:00",
   "region": "Cornwall",
-  "count": 7,
+  "count": 9,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -23,7 +23,7 @@
   },
   "excluded": {
     "franchise": 10,
-    "over_cap": 8,
+    "over_cap": 6,
     "price_unknown": 2,
     "property_only": 0
   },
@@ -187,6 +187,71 @@
       "description": "Exceptional Leasehold Pub, Restaurant & Apartments for Sale – Cornwall. An exciting opportunity to acquire a beautifully presented and highly…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-16f7815e4ef2bc",
+      "name": "This is an exciting opportunity to acquire a Leasehold cafe/catering...",
+      "location": "Gorran Haven , Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 95000,
+      "priceDisplay": "Leasehold Price: £95,000",
+      "priceIsRange": false,
+      "priceConfidence": "Medium",
+      "turnover": 170000,
+      "turnoverDisplay": "Annual Turnover: Circa £170,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Stock is stated to be additional / at valuation. Advert indicates a flexible or relocatable operating model.",
+      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
+      "sellerSignals": [
+        "Stock is stated to be additional / at valuation.",
+        "Advert indicates a flexible or relocatable operating model."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-c77679de246e14",
+      "name": "Licensed Cafe with Indoor & Outdoor Seating",
+      "location": "Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 99995,
+      "priceDisplay": "Price: £99,995",
+      "priceIsRange": false,
+      "priceConfidence": "Low",
+      "turnover": 240000,
+      "turnoverDisplay": "Annual Turnover: £240,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/licensed-cafe-with-indoor-outdoor-seating-for-sale-DB2613501/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
+      "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
+      "sellerSignals": [
+        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
