@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-04T15:03:24.185902+00:00",
+  "updated_at": "2026-10-05T07:32:43.429198+00:00",
   "region": "Cornwall",
-  "count": 9,
+  "count": 10,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -22,7 +22,7 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 11,
+    "franchise": 10,
     "over_cap": 6,
     "price_unknown": 1,
     "property_only": 0
@@ -91,6 +91,36 @@
         "Advert indicates a flexible or relocatable operating model.",
         "Advert mentions repeat or recurring customer revenue."
       ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-579b6bd8679347",
+      "name": "Contact Seller",
+      "location": "Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 40000,
+      "priceDisplay": "Sale Price: £40,000",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 340000,
+      "turnoverDisplay": "Annual Turnover: £340,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/licensed-cafe-with-indoor-outdoor-seating-for-sale-DB2613501/#property-schedule-tour-wrap",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
+      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     },
