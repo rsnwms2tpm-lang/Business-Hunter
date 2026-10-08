@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-07T07:31:47.757741+00:00",
+  "updated_at": "2026-10-08T07:32:47.145528+00:00",
   "region": "Cornwall",
-  "count": 9,
+  "count": 4,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -10,7 +10,8 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
+    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
+    "Daltons: HTTPError: 403 Client Error: Forbidden for url: https://www.daltonsbusiness.com/listing-businesses-for-sale-in-cornwall/"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
@@ -22,8 +23,8 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 9,
-    "over_cap": 7,
+    "franchise": 8,
+    "over_cap": 2,
     "price_unknown": 1,
     "property_only": 0
   },
@@ -56,40 +57,6 @@
       "description": "Whether you live in Cornwall already, or you've been dreaming of a relocation to the westcountry, then this could be the perfect business for you to…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-33cc77c3a51c94",
-      "name": "Established Online Tourism & Accommodation Advertising Business",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 35000,
-      "priceDisplay": "Asking Price: £35,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/established-online-tourism-accommodation-for-sale-DB2599634/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Seller states retirement as a reason for sale. Advert indicates a flexible or relocatable operating model. Advert mentions repeat or recurring customer revenue.",
-      "description": "Bizionary is pleased to present an opportunity to acquire an established online tourism advertising and directory platform serving one of Cornwall’s most popular visitor destinations. Established in May 2023, this platform connects holiday accommodation providers, local businesses and services directly with visitors to the area. Unlike traditional booking platforms, the business does not charge commission on accommodation bookings, instead generating recurring revenue through annual advertising and listing subscriptions. The business has deliberately been developed with competitively priced advertising packages during its initial growth phase, with the founder focusing on building the advertiser base, website traffic, brand recognition and customer loyalty rather than maximising short-term revenue. This strategy has created an established platform which now has: ● 220+ paying advertisers since launch ● Approximately 4,000–5,000 monthly website visitors ● Approximately 20,000–25,000 weekly social media reach ● Strong advertiser renewal and retention ● Recurring annual subscription income ● Low operating costs ● A recognised local tourism brand ● A fully home-based and relocatable operating model Built to Scale Designed from the outset as a scalable online platform. The founder’s original strategy was to maintain accessible advertising prices during the establishment phase and progressively increase package pricing as the website’s audience, advertiser numbers and market presence developed. Based on an illustrative base of approximately 100 accommodation advertisers, the planned future package structure indicates potential accommodation advertising revenue of approximately £13,400–£17,500 per annum. When combined with local business advertising, the existing core advertising model illustrates potential annual revenue in the region of approximately £15,000–£21,000, before considering further advertiser growth or additional revenue streams. These figures are illustrative scenarios rather than forecasts or guarantees and will depend on pricing, advertiser retention and the strategy implemented by a purchaser. Significant Additional Growth Opportunities A new owner could build upon the existing platform through increased package pricing, premium and featured advertising products, additional SEO and Google Ads, increased social media marketing and expansion into neighbouring tourism destinations.",
-      "sellerSignals": [
-        "Seller states retirement as a reason for sale.",
-        "Advert indicates a flexible or relocatable operating model.",
-        "Advert mentions repeat or recurring customer revenue."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
@@ -128,38 +95,6 @@
       "acquisitionBand": "Core"
     },
     {
-      "id": "daltons-e3f971f622dd9a",
-      "name": "Independent Car Hire Business Located In Newquay, Cornwall",
-      "location": "Independent Car Hire Business Located In Newquay, Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 60000,
-      "priceDisplay": "Asking Price £60,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/independent-car-hire-business-located-in-for-sale-DB2596748/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
-      "description": "Independent Car Hire Business Located In Newquay, Cornwall Located @ Newquay Airport Includes £20K Of Assets Relocatable Ref 3285 Asking Price £60,000 LTD Company Sale Location This established Car Hire business is located at Newquay Airport. They also operate at various train stations across Cornwall which are used as pick-up and drop-off points. This offers flexibility and means that the business is fully relocatable within the area that is logistically covered. Business Description Veritas Business Sales are delighted to offer to the market this respected car hire business, which is located in Newquay. Established in 2000 by our client’s late father, the business has been family-operated ever since and is now reluctantly being offered for sale due to our client’s wish to relocate overseas. Cornwall Car Hire Limited offers flexible, hassle-free car hire across Cornwall, with locations in Newquay, St Austell, Bodmin, Truro, Redruth, Liskeard, Camborne, Penzance, Falmouth and St Ives The company is being sold as a limited company, making the transfer of the existing car hire contracts straightforward. The sale also includes a VW Crafter mobile office, which is fully equipped, together with six websites and social media accounts. For the year ended 31st December 2025, the company reported an annual turnover of £217,991 and a net profit of £55,605. Based on these figures, the asking price represents an attractive opportunity for a purchaser. We believe the business would suit an existing car hire company looking to expand through acquisition, or another car-related business with its own premises looking for a complementary bolt-on operation. The business has built a strong reputation within the local community and beyond and benefits from a 4.8 Google rating from 84 customer reviews. This represents an excellent opportunity to acquire an established, turnkey operation with significant scope for further growth. Early viewing is therefore highly recommended. Mobile Office 2024 WV Crafter Reg KT73 MHM Plant & Machinery Cordless hoover DeWalt Vacuum Cleaner Posture Mesh Office Chair 2 x 18v Battery Twin Packs Einhell PXC Quad Charger Einhell TC-VC 18/20 Wet/Dry Vacuum cleaner Ergo-Tek Chair Karcher K4 Pressure Washer Einhell Cordless Wet & Dry Vacuum Cleaner 10 x child seats 2 x GPS Sat nav units",
-      "sellerSignals": [
-        "Advert indicates a flexible or relocatable operating model."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
       "id": "businessesforsale-81f4c16d755414",
       "name": "Restaurant And Pub With Two Rented Apartments",
       "location": "Torpoint, Cornwall",
@@ -187,103 +122,6 @@
       "description": "Exceptional Leasehold Pub, Restaurant & Apartments for Sale – Cornwall. An exciting opportunity to acquire a beautifully presented and highly…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-16f7815e4ef2bc",
-      "name": "This is an exciting opportunity to acquire a Leasehold cafe/catering...",
-      "location": "Gorran Haven , Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 95000,
-      "priceDisplay": "Leasehold Price: £95,000",
-      "priceIsRange": false,
-      "priceConfidence": "Medium",
-      "turnover": 170000,
-      "turnoverDisplay": "Annual Turnover: Circa £170,000",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Stock is stated to be additional / at valuation. Advert indicates a flexible or relocatable operating model.",
-      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
-      "sellerSignals": [
-        "Stock is stated to be additional / at valuation.",
-        "Advert indicates a flexible or relocatable operating model."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-c77679de246e14",
-      "name": "Licensed Cafe with Indoor & Outdoor Seating",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 99995,
-      "priceDisplay": "Price: £99,995",
-      "priceIsRange": false,
-      "priceConfidence": "Low",
-      "turnover": 240000,
-      "turnoverDisplay": "Annual Turnover: £240,000",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/licensed-cafe-with-indoor-outdoor-seating-for-sale-DB2613501/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
-      "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
-      "sellerSignals": [
-        "Advert indicates a flexible or relocatable operating model."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-1480107e3181a8",
-      "name": "Highfields Motor Home Hire",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 120000,
-      "priceDisplay": "Price: £120,000",
-      "priceIsRange": false,
-      "priceConfidence": "Low",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/highfields-motor-home-hire-for-sale-DB2600608/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
-      "description": "A great opportunity to own a well established, highly rated, business with incredibly well presented high end Motorhomes all with full gas safety certification and the latest remote capabilities ensuring clients can enjoy stress free and relaxing holidays both throughout the UK and also into mainland Europe. The Business has been in operation since 2021 with 2x high end Motorhomes,(2022 and 2023 models), both of which are fully Ford serviced plus full habitation specifications. The Motorhomes are both fully equipped with complete inventory from cutlery to outside furniture plus having the facility for full off-grid use including solar/ split/smart charging capability allowing clients to fully explore the less well known areas of their holiday areas. The business is located in an area of North Cornwall but would be perfectly suited for relocation and has a large following of users with in excess of 1700 regular users of the website which is also included within the sale",
-      "sellerSignals": [
-        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
