@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T16:43:44.105296+00:00",
+  "updated_at": "2026-10-13T15:02:37.540185+00:00",
   "region": "Cornwall",
   "count": 7,
   "sources": [
@@ -22,8 +22,8 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 10,
-    "over_cap": 6,
+    "franchise": 11,
+    "over_cap": 5,
     "price_unknown": 0,
     "property_only": 0
   },
