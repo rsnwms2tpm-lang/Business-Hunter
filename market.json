@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T12:24:15.037294+00:00",
+  "updated_at": "2026-10-17T11:36:34.753391+00:00",
   "region": "Cornwall",
-  "count": 7,
+  "count": 5,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -23,45 +23,11 @@
   },
   "excluded": {
     "franchise": 11,
-    "over_cap": 5,
-    "price_unknown": 0,
+    "over_cap": 4,
+    "price_unknown": 1,
     "property_only": 0
   },
   "listings": [
-    {
-      "id": "daltons-33cc77c3a51c94",
-      "name": "Established Online Tourism & Accommodation Advertising Business",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 35000,
-      "priceDisplay": "Asking Price: £35,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/established-online-tourism-accommodation-for-sale-DB2599634/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Seller states retirement as a reason for sale. Advert indicates a flexible or relocatable operating model. Advert mentions repeat or recurring customer revenue.",
-      "description": "Bizionary is pleased to present an opportunity to acquire an established online tourism advertising and directory platform serving one of Cornwall’s most popular visitor destinations. Established in May 2023, this platform connects holiday accommodation providers, local businesses and services directly with visitors to the area. Unlike traditional booking platforms, the business does not charge commission on accommodation bookings, instead generating recurring revenue through annual advertising and listing subscriptions. The business has deliberately been developed with competitively priced advertising packages during its initial growth phase, with the founder focusing on building the advertiser base, website traffic, brand recognition and customer loyalty rather than maximising short-term revenue. This strategy has created an established platform which now has: ● 220+ paying advertisers since launch ● Approximately 4,000–5,000 monthly website visitors ● Approximately 20,000–25,000 weekly social media reach ● Strong advertiser renewal and retention ● Recurring annual subscription income ● Low operating costs ● A recognised local tourism brand ● A fully home-based and relocatable operating model Built to Scale Designed from the outset as a scalable online platform. The founder’s original strategy was to maintain accessible advertising prices during the establishment phase and progressively increase package pricing as the website’s audience, advertiser numbers and market presence developed. Based on an illustrative base of approximately 100 accommodation advertisers, the planned future package structure indicates potential accommodation advertising revenue of approximately £13,400–£17,500 per annum. When combined with local business advertising, the existing core advertising model illustrates potential annual revenue in the region of approximately £15,000–£21,000, before considering further advertiser growth or additional revenue streams. These figures are illustrative scenarios rather than forecasts or guarantees and will depend on pricing, advertiser retention and the strategy implemented by a purchaser. Significant Additional Growth Opportunities A new owner could build upon the existing platform through increased package pricing, premium and featured advertising products, additional SEO and Google Ads, increased social media marketing and expansion into neighbouring tourism destinations.",
-      "sellerSignals": [
-        "Seller states retirement as a reason for sale.",
-        "Advert indicates a flexible or relocatable operating model.",
-        "Advert mentions repeat or recurring customer revenue."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
     {
       "id": "businessesforsale-319d7cdb01ff15",
       "name": "South West Based Events Brand",
@@ -186,38 +152,6 @@
       "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
       "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
       "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
-      "sellerSignals": [
-        "Advert indicates a flexible or relocatable operating model."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-1480107e3181a8",
-      "name": "Highfields Motor Home Hire",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 120000,
-      "priceDisplay": "Price: £120,000",
-      "priceIsRange": false,
-      "priceConfidence": "Low",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/highfields-motor-home-hire-for-sale-DB2600608/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
-      "description": "A great opportunity to own a well established, highly rated, business with incredibly well presented high end Motorhomes all with full gas safety certification and the latest remote capabilities ensuring clients can enjoy stress free and relaxing holidays both throughout the UK and also into mainland Europe. The Business has been in operation since 2021 with 2x high end Motorhomes,(2022 and 2023 models), both of which are fully Ford serviced plus full habitation specifications. The Motorhomes are both fully equipped with complete inventory from cutlery to outside furniture plus having the facility for full off-grid use including solar/ split/smart charging capability allowing clients to fully explore the less well known areas of their holiday areas. The business is located in an area of North Cornwall but would be perfectly suited for relocation and has a large following of users with in excess of 1700 regular users of the website which is also included within the sale",
       "sellerSignals": [
         "Advert indicates a flexible or relocatable operating model."
       ],
