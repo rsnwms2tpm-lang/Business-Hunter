@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T12:42:49.739675+00:00",
+  "updated_at": "2026-10-21T12:55:35.542864+00:00",
   "region": "Cornwall",
-  "count": 2,
+  "count": 5,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -10,8 +10,7 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
-    "Daltons: HTTPError: 403 Client Error: Forbidden for url: https://www.daltonsbusiness.com/listing-businesses-for-sale-in-cornwall/"
+    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
@@ -23,9 +22,9 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 10,
-    "over_cap": 1,
-    "price_unknown": 0,
+    "franchise": 12,
+    "over_cap": 4,
+    "price_unknown": 1,
     "property_only": 0
   },
   "listings": [
@@ -91,6 +90,101 @@
       "sellerSignals": [
         "Seller indicates material owner involvement."
       ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-16f7815e4ef2bc",
+      "name": "This is an exciting opportunity to acquire a Leasehold cafe/catering...",
+      "location": "Gorran Haven , Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 95000,
+      "priceDisplay": "Leasehold Price: £95,000",
+      "priceIsRange": false,
+      "priceConfidence": "Medium",
+      "turnover": 170000,
+      "turnoverDisplay": "Annual Turnover: Circa £170,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Stock is stated to be additional / at valuation. Advert indicates a flexible or relocatable operating model.",
+      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
+      "sellerSignals": [
+        "Stock is stated to be additional / at valuation.",
+        "Advert indicates a flexible or relocatable operating model."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-c77679de246e14",
+      "name": "Licensed Cafe with Indoor & Outdoor Seating",
+      "location": "Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 99995,
+      "priceDisplay": "Price: £99,995",
+      "priceIsRange": false,
+      "priceConfidence": "Low",
+      "turnover": 240000,
+      "turnoverDisplay": "Annual Turnover: £240,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/licensed-cafe-with-indoor-outdoor-seating-for-sale-DB2613501/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert indicates a flexible or relocatable operating model.",
+      "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
+      "sellerSignals": [
+        "Advert indicates a flexible or relocatable operating model."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-49e5f946a240fc",
+      "name": "Freehold Commercial Investment – Banking Hub, Bude, Cornwall",
+      "location": "Bude, Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 169950,
+      "priceDisplay": "Asking Price: £169,950",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 0,
+      "turnoverDisplay": "",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/freehold-commercial-investment-banking-for-sale-DB2605021/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "description": "Asking Price: £169,950 Freehold Current Rent: £12,000 per annum Headline Gross Yield: 7% Tenant: Cash Access UK Limited Location: 1 The Depot, Lansdown Road, Bude, Cornwall, EX23 8BN Bizionary is pleased to offer for sale the freehold interest in this modern ground-floor commercial premises in Bude, Cornwall, currently occupied and trading as the town’s Banking Hub. The property is let to Cash Access UK Limited, the organisation responsible for operating Banking Hubs across the UK. The documentation supplied confirms Cash Access UK Limited as the tenant of the ground-floor shop at 1 The Depot, Lansdown Road, Bude. The property produces a current rental income of £12,000 per annum, providing an attractive 7% headline gross yield based on the £169,950 asking price. This represents an opportunity to acquire a fully let commercial investment with an established institutional-style occupier, rather than taking on the letting risk, void periods and fit-out costs associated with purchasing a vacant commercial unit. Key Investment Highlights • Freehold commercial investment • Asking price: £169,950 • £12,000 annual rental income • 7% headline gross yield • 15-year lease • Tenant: Cash Access UK Limited • Currently operating as the Bude Banking Hub • RPI-linked rent review provisions • Modern, professionally fitted commercial premises • Significant tenant investment into the Banking Hub fit-out • Prominent ground-floor position • Located in the established coastal town of Bude, North Cornwall • Potentially suitable for private investors, pension/SIPP investors and commercial property investors, subject to individual eligibility and professional advice",
+      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     }
