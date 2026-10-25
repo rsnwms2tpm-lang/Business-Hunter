@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-24T11:59:29.764744+00:00",
+  "updated_at": "2026-10-25T12:34:13.892660+00:00",
   "region": "Cornwall",
-  "count": 7,
+  "count": 6,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -23,7 +23,7 @@
   },
   "excluded": {
     "franchise": 11,
-    "over_cap": 4,
+    "over_cap": 5,
     "price_unknown": 1,
     "property_only": 0
   },
@@ -57,36 +57,6 @@
       "sellerSignals": [
         "Seller indicates material owner involvement."
       ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "businessesforsale-e88b79d32f3cf9",
-      "name": "Traditional Hayle Pub With Planned 2027 Investment",
-      "location": "Hayle, Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 7500,
-      "priceDisplay": "Asking Price: £7,500",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "BusinessesForSale",
-      "url": "https://uk.businessesforsale.com/uk/traditional-hayle-pub-with-planned-2027-investment.aspx",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from BusinessesForSale; individual advert URL retained.",
-      "description": "Traditional community pub in a highly accessible part of Hayle. Investment planned by St Austell Brewery in 2027. Established wet-led trade with…",
-      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     },
