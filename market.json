@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-26T14:15:08.237708+00:00",
+  "updated_at": "2026-10-27T13:11:40.828417+00:00",
   "region": "Cornwall",
-  "count": 7,
+  "count": 6,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -22,7 +22,7 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 10,
+    "franchise": 11,
     "over_cap": 5,
     "price_unknown": 1,
     "property_only": 0
@@ -56,38 +56,6 @@
       "description": "Whether you live in Cornwall already, or you've been dreaming of a relocation to the westcountry, then this could be the perfect business for you to…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-579b6bd8679347",
-      "name": "Contact Seller",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 40000,
-      "priceDisplay": "Sale Price: £40,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 1500,
-      "turnoverDisplay": "turnover £1,500",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/licensed-cafe-with-indoor-outdoor-seating-for-sale-DB2613501/#property-schedule-tour-wrap",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Seller states retirement as a reason for sale.",
-      "description": "Business Please quote reference B09790 CoGoGo welcomes an excellent opportunity to acquire an established and fully staffed cafe occupying leasehold premises in an attractive coastal location in West Cornwall . The business provides approximately 24–30 internal covers , together with external seating , and benefits from an alcohol licence . Operated by the current owner for approximately four years, the business is now discreetly offered for sale due to retirement .",
-      "sellerSignals": [
-        "Seller states retirement as a reason for sale."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
