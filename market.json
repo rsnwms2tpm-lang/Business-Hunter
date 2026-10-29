@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T14:00:12.485945+00:00",
+  "updated_at": "2026-10-29T14:16:27.048328+00:00",
   "region": "Cornwall",
   "count": 6,
   "sources": [
@@ -200,8 +200,8 @@
       "priceDisplay": "Sale Price: £145,000",
       "priceIsRange": false,
       "priceConfidence": "High",
-      "turnover": 4000,
-      "turnoverDisplay": "Turnover: £4,000",
+      "turnover": 195000,
+      "turnoverDisplay": "Annual Turnover: £195,000",
       "turnoverIsRange": false,
       "profit": 0,
       "profitDisplay": "",
