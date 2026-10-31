@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T14:06:53.004237+00:00",
+  "updated_at": "2026-10-31T13:38:41.326324+00:00",
   "region": "Cornwall",
   "count": 5,
   "sources": [
@@ -66,8 +66,8 @@
       "location": "Cornwall",
       "type": "",
       "status": "New",
-      "price": 200000,
-      "priceDisplay": "Sale Price: £200,000",
+      "price": 195000,
+      "priceDisplay": "Sale Price: £195,000",
       "priceIsRange": false,
       "priceConfidence": "High",
       "turnover": 404336,
@@ -84,9 +84,11 @@
       "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/#property-schedule-tour-wrap",
       "growth": "Review the full seller description for evidenced growth opportunities.",
       "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert mentions repeat or recurring customer revenue.",
       "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
-      "sellerSignals": [],
+      "sellerSignals": [
+        "Advert mentions repeat or recurring customer revenue."
+      ],
       "isFranchise": false,
       "acquisitionBand": "Core"
     },
