@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T14:16:07.582077+00:00",
+  "updated_at": "2026-11-02T17:03:29.541176+00:00",
   "region": "Cornwall",
-  "count": 5,
+  "count": 3,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -10,7 +10,8 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
+    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
+    "Daltons: HTTPError: 403 Client Error: Forbidden for url: https://www.daltonsbusiness.com/listing-businesses-for-sale-in-cornwall/"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
@@ -22,9 +23,9 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 10,
-    "over_cap": 5,
-    "price_unknown": 1,
+    "franchise": 9,
+    "over_cap": 2,
+    "price_unknown": 0,
     "property_only": 0
   },
   "listings": [
@@ -56,38 +57,6 @@
       "description": "Whether you live in Cornwall already, or you've been dreaming of a relocation to the westcountry, then this could be the perfect business for you to…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-01a223b44d4184",
-      "name": "Contact Seller",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 195000,
-      "priceDisplay": "Sale Price: £195,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 404336,
-      "turnoverDisplay": "Annual Turnover: £404,336",
-      "turnoverIsRange": false,
-      "profit": 82033,
-      "profitDisplay": "Annual Net Profit: £82,033",
-      "profitIsRange": false,
-      "profitMeasure": "Annual net profit",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/#property-schedule-tour-wrap",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Advert mentions repeat or recurring customer revenue.",
-      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
-      "sellerSignals": [
-        "Advert mentions repeat or recurring customer revenue."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
@@ -153,39 +122,6 @@
       "description": "Exceptional Leasehold Pub, Restaurant & Apartments for Sale – Cornwall. An exciting opportunity to acquire a beautifully presented and highly…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-16f7815e4ef2bc",
-      "name": "This is an exciting opportunity to acquire a Leasehold cafe/catering...",
-      "location": "Gorran Haven , Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 95000,
-      "priceDisplay": "Leasehold Price: £95,000",
-      "priceIsRange": false,
-      "priceConfidence": "Medium",
-      "turnover": 170000,
-      "turnoverDisplay": "Annual Turnover: Circa £170,000",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Stock is stated to be additional / at valuation. Advert indicates a flexible or relocatable operating model.",
-      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
-      "sellerSignals": [
-        "Stock is stated to be additional / at valuation.",
-        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
