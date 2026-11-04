@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-03T15:06:03.705407+00:00",
+  "updated_at": "2026-11-04T15:24:27.354913+00:00",
   "region": "Cornwall",
-  "count": 3,
+  "count": 5,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -10,8 +10,7 @@
     "Bizdaq"
   ],
   "errors": [
-    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html",
-    "Daltons: HTTPError: 403 Client Error: Forbidden for url: https://www.daltonsbusiness.com/listing-businesses-for-sale-in-cornwall/"
+    "Rightbiz: HTTPError: 403 Client Error: Forbidden for url: https://www.rightbiz.co.uk/businesses-for-sale-in-cornwall.html"
   ],
   "collector_version": 2.4,
   "acquisition_policy": {
@@ -23,9 +22,9 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 9,
-    "over_cap": 1,
-    "price_unknown": 0,
+    "franchise": 11,
+    "over_cap": 3,
+    "price_unknown": 2,
     "property_only": 0
   },
   "listings": [
@@ -58,6 +57,36 @@
       "sellerSignals": [
         "Seller indicates material owner involvement."
       ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-19587040a94b7f",
+      "name": "Established Wedding Videography Business, St Austell, Cornwall",
+      "location": "St Austell, Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 15000,
+      "priceDisplay": "Price: £15,000",
+      "priceIsRange": false,
+      "priceConfidence": "Low",
+      "turnover": 23000,
+      "turnoverDisplay": "Annual Turnover: £23,000",
+      "turnoverIsRange": false,
+      "profit": 10000,
+      "profitDisplay": "Annual Net Profit: £10,000",
+      "profitIsRange": false,
+      "profitMeasure": "Annual net profit",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/established-wedding-videography-business-for-sale-DB2621791/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained.",
+      "description": "JBFocal Films is a wedding videography business established in 2022 and based in St Austell, Cornwall. In a relatively short trading history, the business has built an established brand within the wedding market, underpinned by a diversified marketing presence that spans the major wedding platforms, print advertising and wedding fairs. This multi-channel visibility keeps the business in front of couples planning their weddings and has supported a growing flow of bookings. The business operates a deliberately flexible, low-overhead model. Work is delivered through a team of freelance associates, each contractually responsible for their own finances, insurance and services, which keeps fixed costs low and allows capacity to flex with demand. Since adopting this subcontracted delivery model, company bookings have increased and overall earnings have risen as package costs to clients have been increased. Offered for sale due to the owner’s health, this is an accessible, low-cost entry into the wedding sector, and would particularly suit a videographer or creative professional looking to step into an established brand with marketing channels already in place. – Established wedding videography brand, trading since 2022 – Turnover approximately £23,000 – Net profit approximately £10,000 – Flexible, low-overhead operating model – Diversified marketing across major wedding platforms, print and wedding fairs – Freelance associate team, each responsible for their own finances, insurance and services – Company bookings increasing, with rising package pricing – Stock available in addition at valuation JBFocal Films provides wedding videography services, with packages priced and sold by the business and delivered by its freelance associates. Client work is won through the business’s established and diversified marketing mix, with a presence on the major wedding platforms complemented by print advertising and attendance at wedding fairs. The subcontractor model means every associate is bound under contract to take full responsibility for their own finances, insurance and services, keeping the operation simple and the overhead base light. The owner reports that bookings have grown under this model, while increased package pricing has lifted overall earnings. The business is based in St Austell, Cornwall. The precise trading address is not disclosed in marketing materials and will be shared with genuinely interested buyers at the appropriate stage of the sale process. No premises or tenure details have been supplied, reflecting the flexible, low-overhead nature of the operation. The asset base is compact, comprising a laptop and hard drives, and buyers should confirm the practical trading arrangements with the brokers as part of their enquiries.",
+      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     },
@@ -122,6 +151,39 @@
       "description": "Exceptional Leasehold Pub, Restaurant & Apartments for Sale – Cornwall. An exciting opportunity to acquire a beautifully presented and highly…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "daltons-16f7815e4ef2bc",
+      "name": "This is an exciting opportunity to acquire a Leasehold cafe/catering...",
+      "location": "Gorran Haven , Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 95000,
+      "priceDisplay": "Leasehold Price: £95,000",
+      "priceIsRange": false,
+      "priceConfidence": "Medium",
+      "turnover": 170000,
+      "turnoverDisplay": "Annual Turnover: Circa £170,000",
+      "turnoverIsRange": false,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/this-is-an-exciting-opportunity-to-acquire-for-sale-DB2613181/",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Stock is stated to be additional / at valuation. Advert indicates a flexible or relocatable operating model.",
+      "description": "This is an exciting opportunity to acquire a Leasehold cafe/catering business situated on the Beachfront in the picturesque village of Gorran Haven, on the South Cornish coast. The business has been owned and operated by our clients for several years on a Seasonal basis, with the assistance of part time staff. The cafe offers a wide selection of freshly made hot and cold snacks, a selection of beverages, locally produced ice creams and benefits from a premises licence for the sale of alcohol. The premises extend to circa 450 sqft, and comprises a customer service area behind which is a well equipped kitchen and small store room. The sale of the business is to include a wide selection of equipment, fixtures and fittings to enable a seamless transition of the business to new owners.",
+      "sellerSignals": [
+        "Stock is stated to be additional / at valuation.",
+        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
