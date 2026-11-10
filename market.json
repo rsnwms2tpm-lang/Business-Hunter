@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-09T17:28:12.493428+00:00",
+  "updated_at": "2026-11-10T15:35:04.563678+00:00",
   "region": "Cornwall",
-  "count": 8,
+  "count": 7,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -22,8 +22,8 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 10,
-    "over_cap": 3,
+    "franchise": 11,
+    "over_cap": 2,
     "price_unknown": 2,
     "property_only": 0
   },
@@ -56,39 +56,6 @@
       "description": "Whether you live in Cornwall already, or you've been dreaming of a relocation to the westcountry, then this could be the perfect business for you to…",
       "sellerSignals": [
         "Seller indicates material owner involvement."
-      ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "daltons-63f06a46ed2155",
-      "name": "Contact Seller",
-      "location": "Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 85000,
-      "priceDisplay": "Sale Price: £85,000",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 47329,
-      "turnoverDisplay": "Annual Turnover: £47,329",
-      "turnoverIsRange": false,
-      "profit": 44553,
-      "profitDisplay": "Profit £44,553",
-      "profitIsRange": false,
-      "profitMeasure": "Seller-stated profit",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "Daltons",
-      "url": "https://www.daltonsbusiness.com/listing/established-wedding-videography-business-for-sale-DB2621791/#property-schedule-tour-wrap",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from Daltons; individual advert URL retained. Seller states retirement as a reason for sale. Advert mentions repeat or recurring customer revenue.",
-      "description": "JBFocal Films is a wedding videography business established in 2022 and based in St Austell, Cornwall. In a relatively short trading history, the business has built an established brand within the wedding market, underpinned by a diversified marketing presence that spans the major wedding platforms, print advertising and wedding fairs. This multi-channel visibility keeps the business in front of couples planning their weddings and has supported a growing flow of bookings. The business operates a deliberately flexible, low-overhead model. Work is delivered through a team of freelance associates, each contractually responsible for their own finances, insurance and services, which keeps fixed costs low and allows capacity to flex with demand. Since adopting this subcontracted delivery model, company bookings have increased and overall earnings have risen as package costs to clients have been increased. Offered for sale due to the owner’s health, this is an accessible, low-cost entry into the wedding sector, and would particularly suit a videographer or creative professional looking to step into an established brand with marketing channels already in place. – Established wedding videography brand, trading since 2022 – Turnover approximately £23,000 – Net profit approximately £10,000 – Flexible, low-overhead operating model – Diversified marketing across major wedding platforms, print and wedding fairs – Freelance associate team, each responsible for their own finances, insurance and services – Company bookings increasing, with rising package pricing – Stock available in addition at valuation JBFocal Films provides wedding videography services, with packages priced and sold by the business and delivered by its freelance associates. Client work is won through the business’s established and diversified marketing mix, with a presence on the major wedding platforms complemented by print advertising and attendance at wedding fairs. The subcontractor model means every associate is bound under contract to take full responsibility for their own finances, insurance and services, keeping the operation simple and the overhead base light. The owner reports that bookings have grown under this model, while increased package pricing has lifted overall earnings. The business is based in St Austell, Cornwall. The precise trading address is not disclosed in marketing materials and will be shared with genuinely interested buyers at the appropriate stage of the sale process. No premises or tenure details have been supplied, reflecting the flexible, low-overhead nature of the operation. The asset base is compact, comprising a laptop and hard drives, and buyers should confirm the practical trading arrangements with the brokers as part of their enquiries.",
-      "sellerSignals": [
-        "Seller states retirement as a reason for sale.",
-        "Advert mentions repeat or recurring customer revenue."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
@@ -219,17 +186,17 @@
       "acquisitionBand": "Core"
     },
     {
-      "id": "businessesforsale-81f4c16d755414",
-      "name": "Restaurant And Pub With Two Rented Apartments",
-      "location": "Torpoint, Cornwall",
+      "id": "daltons-c2962ccb2cdc3a",
+      "name": "Training Services for Forklift, Vehicle & Plant Lifting Operatio...",
+      "location": "Cornwall , Cornwall",
       "type": "",
       "status": "New",
-      "price": 65850,
-      "priceDisplay": "Asking Price: £65,850",
+      "price": 60000,
+      "priceDisplay": "Leasehold Price: £60,000",
       "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 305000,
-      "turnoverDisplay": "Turnover: £305,000",
+      "priceConfidence": "Medium",
+      "turnover": 68000,
+      "turnoverDisplay": "Annual Turnover: £68,000",
       "turnoverIsRange": false,
       "profit": 0,
       "profitDisplay": "",
@@ -238,14 +205,15 @@
       "rent": 0,
       "employees": 0,
       "ownerDays": 0,
-      "source": "BusinessesForSale",
-      "url": "https://uk.businessesforsale.com/uk/restaurant-and-pub-with-two-rented-apartments.aspx",
+      "source": "Daltons",
+      "url": "https://www.daltonsbusiness.com/listing/training-services-for-forklift-vehicle-for-sale-DB2629391/",
       "growth": "Review the full seller description for evidenced growth opportunities.",
       "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from BusinessesForSale; individual advert URL retained. Seller indicates material owner involvement.",
-      "description": "Exceptional Leasehold Pub, Restaurant & Apartments for Sale – Cornwall. An exciting opportunity to acquire a beautifully presented and highly…",
+      "notes": "Automatically collected from Daltons; individual advert URL retained. Seller states retirement as a reason for sale. Advert indicates a flexible or relocatable operating model.",
+      "description": "• Well established • Excellent name and reputation • Nationally accredited and assessment training provider • Operated solely by owner • Training currently undertaken at own training centre and at client locations • Courses arranged for complete novices through to the fully experienced • Courses include theory and practical tests • Turnover £68,000 (but around £80,000 prior to owner’s recent ill health) • Genuine scope for significant business expansion as well as an increase in charges (not increased during last 2 years!) • Eminently suitable for a currently employed instructor as well as for a competitor looking to expand geographically and also for a large non-competing company interested in taking this business ‘in-house’ • Available in situ (or on a relocation basis if preferred) • Retirement sale due to serious ill health • Offered at bargain price for quick sale (N.B. current market, second-hand value of fixed assets alone worth £45,000-£50,000)",
       "sellerSignals": [
-        "Seller indicates material owner involvement."
+        "Seller states retirement as a reason for sale.",
+        "Advert indicates a flexible or relocatable operating model."
       ],
       "isFranchise": false,
       "acquisitionBand": "Core"
