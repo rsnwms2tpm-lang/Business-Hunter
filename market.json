@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T16:59:24.482939+00:00",
+  "updated_at": "2026-11-17T16:52:33.245223+00:00",
   "region": "Cornwall",
-  "count": 9,
+  "count": 8,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -23,7 +23,7 @@
   },
   "excluded": {
     "franchise": 10,
-    "over_cap": 2,
+    "over_cap": 3,
     "price_unknown": 2,
     "property_only": 0
   },
@@ -279,36 +279,6 @@
       "sellerSignals": [
         "Advert indicates a flexible or relocatable operating model."
       ],
-      "isFranchise": false,
-      "acquisitionBand": "Core"
-    },
-    {
-      "id": "businessesforsale-64c6365958726e",
-      "name": "Licensed Cafe Business In Padstow",
-      "location": "Padstow, Cornwall",
-      "type": "",
-      "status": "New",
-      "price": 142500,
-      "priceDisplay": "Asking Price: £142,500",
-      "priceIsRange": false,
-      "priceConfidence": "High",
-      "turnover": 0,
-      "turnoverDisplay": "",
-      "turnoverIsRange": false,
-      "profit": 0,
-      "profitDisplay": "",
-      "profitIsRange": false,
-      "profitMeasure": "Unknown",
-      "rent": 0,
-      "employees": 0,
-      "ownerDays": 0,
-      "source": "BusinessesForSale",
-      "url": "https://uk.businessesforsale.com/uk/licensed-cafe-business-in-padstow-for-sale.aspx",
-      "growth": "Review the full seller description for evidenced growth opportunities.",
-      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
-      "notes": "Automatically collected from BusinessesForSale; individual advert URL retained.",
-      "description": "Padstow Licensed Cafe Business. Established hospitality premises in the heart of Padstow's historic harbour town. Attractive character building with…",
-      "sellerSignals": [],
       "isFranchise": false,
       "acquisitionBand": "Core"
     }
