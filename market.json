@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T16:26:43.370741+00:00",
+  "updated_at": "2026-11-19T16:33:13.554744+00:00",
   "region": "Cornwall",
-  "count": 6,
+  "count": 8,
   "sources": [
     "Rightbiz",
     "BusinessesForSale",
@@ -22,12 +22,44 @@
     "reserve_policy": "Keep 6-12 months personal living costs in reserve; assess usable cash, working capital and finance/vendor terms before affordability."
   },
   "excluded": {
-    "franchise": 8,
-    "over_cap": 2,
-    "price_unknown": 7,
+    "franchise": 10,
+    "over_cap": 4,
+    "price_unknown": 1,
     "property_only": 0
   },
   "listings": [
+    {
+      "id": "businessesforsale-29192670b78a46",
+      "name": "Change Your Life With This Leading Westcountry Franchise",
+      "location": "Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 84000,
+      "priceDisplay": "Asking Price: £84,000",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 750000,
+      "turnoverDisplay": "Turnover: £500K - £1M",
+      "turnoverIsRange": true,
+      "profit": 175000,
+      "profitDisplay": "Net Profit: £100K - £250K",
+      "profitIsRange": true,
+      "profitMeasure": "Annual net profit",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "BusinessesForSale",
+      "url": "https://uk.businessesforsale.com/uk/change-your-life-with-this-leading-westcountry-franchise.aspx",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from BusinessesForSale; individual advert URL retained. Seller indicates material owner involvement.",
+      "description": "Whether you live in Cornwall already, or you've been dreaming of a relocation to the westcountry, then this could be the perfect business for you to…",
+      "sellerSignals": [
+        "Seller indicates material owner involvement."
+      ],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
     {
       "id": "daltons-41129abd6a637e",
       "name": "Chef-Led Pub and Restaurant With Two Flats, Torpoint, Cornwall",
@@ -115,6 +147,39 @@
       "notes": "Automatically collected from Daltons; individual advert URL retained.",
       "description": "The Nationwide Group of Companies welcomes to the market this Old Established FISH & CHIPS plus PIZZA TAKEWAY (CLOSED). Semi-detached property, excellent trading position, residential, office and commercial area, Cornwall. DOUBLE FRONTED CORNER TAKEAWAY in the region of 235 ft² with laminated strip floor, suspended ceiling with fluorescent lighting, sales counter, Preston & Thomas counter range, EPOS till. Tables and chairs providing seating for 12 People Kitchen with stainless steel extractor unit, pizza oven (2-deck), Cooker (Gas 4-burner), deep fryer (2 pan), Fish fridge, fridges, freezers, refrigerated making table, etc. Toilet with w.c. and wash hand basin. TO INCLUDE THE NEW SECURE RENEWABLE LEASE, FIXTURES & FITTINGS £25,000 LOAN TO AN APPROVED APPLICANT. OR TO INCLUDE THE VALUABLE FREEHOLD PROPERTY, FIXTURES & FITTINGS £140,000 SUBSTANTIAL MORTGAGE TO AN APPROVED APPLICANT. (Our brokers can lend up to 50% on a leasehold or 75% on a freehold purchase, subject to status, please contact us for a free quote) Request Details to see Additional Information e.g. Opening Hours, Staffing and Tenure. Viewing Strictly by appointment via Nationwide Businesses Ltd 020 8763 1777. Lease : £25,000 Freehold : £140,000 (R3254) More Fish & Chip Shops for Sale –>",
       "sellerSignals": [],
+      "isFranchise": false,
+      "acquisitionBand": "Core"
+    },
+    {
+      "id": "businessesforsale-319d7cdb01ff15",
+      "name": "South West Based Events Brand",
+      "location": "Falmouth, Cornwall",
+      "type": "",
+      "status": "New",
+      "price": 45000,
+      "priceDisplay": "Asking Price: £45,000",
+      "priceIsRange": false,
+      "priceConfidence": "High",
+      "turnover": 150000,
+      "turnoverDisplay": "Turnover: £100K - £200K",
+      "turnoverIsRange": true,
+      "profit": 0,
+      "profitDisplay": "",
+      "profitIsRange": false,
+      "profitMeasure": "Unknown",
+      "rent": 0,
+      "employees": 0,
+      "ownerDays": 0,
+      "source": "BusinessesForSale",
+      "url": "https://uk.businessesforsale.com/uk/south-west-based-events-brand-for-sale.aspx",
+      "growth": "Review the full seller description for evidenced growth opportunities.",
+      "risks": "Automated screening data. Verify seller figures, owner role, staffing, tenure and accounts before relying on it.",
+      "notes": "Automatically collected from BusinessesForSale; individual advert URL retained. Seller indicates material owner involvement. Advert indicates a flexible or relocatable operating model.",
+      "description": "DJ in Cornwall — Established Wedding Entertainment Agency for Sale. A rare opportunity to acquire one of Cornwall's best-known wedding entertainment…",
+      "sellerSignals": [
+        "Seller indicates material owner involvement.",
+        "Advert indicates a flexible or relocatable operating model."
+      ],
       "isFranchise": false,
       "acquisitionBand": "Core"
     },
